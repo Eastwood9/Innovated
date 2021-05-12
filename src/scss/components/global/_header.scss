@@ -1,0 +1,39 @@
+.header {
+  padding: 55px 0 60px;
+  background-color: #FFF5F5;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+
+  &__link {
+    position: relative;
+    transition: color .4s;
+    font-weight: 500;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}

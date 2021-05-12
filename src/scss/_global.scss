@@ -1,12 +1,16 @@
+html {
+  font-size: 18px;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  // font-size: 16px;
-  // line-height: 1.8;
-  // @include font('Rubik', 400);
-  // color: $primary-neutral;
-  // background-color: #fff;
+  font-size: 1rem;
+  line-height: 1.6;
+  @include font('Poppins', 400);
+  color: #575859;
+  background-color: #E5E5E5;
 }
 
 .main {
@@ -24,4 +28,10 @@
   white-space: nowrap;
   /* added line */
   border: 0;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
 }

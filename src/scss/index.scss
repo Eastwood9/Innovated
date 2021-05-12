@@ -6,10 +6,6 @@
 @import 'global';
 
 // --- GLOBAL ---
+@import 'components/global/decor';
 @import 'components/global/header';
 // --- / GLOBAL ---
-
-.test-1 {
-  font-size: 4rem;
-  font-family: 'Poppins';
-}
